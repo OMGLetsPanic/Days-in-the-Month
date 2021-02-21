@@ -7,7 +7,7 @@ if int(month) == 4 or 6 or 9 or 11:
     print("There are 30 days in", month + "/" + year + ".")
 elif int(month) == 1 or 3 or 5 or 7 or 8 or 10 or 12:
     print("There are 31 days in", month + "/" + year + ".")
-elif int(month) == 2 and int(year) % 4 == 0:
+elif (int(month) == 2 and int(year) % 4 == 0):
     print("There are 29 days in", month + "/" + year + ". Happy Leap Year!")
 elif int(month) == 2:
     print("There are 28 days in", month + "/" + year + ".")
